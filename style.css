@@ -102,7 +102,7 @@
     display:flex;
     justify-content: space-around;
     margin-top:20px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
    
 }
 .aboutimages img:hover {
@@ -110,7 +110,6 @@
 }
 .aboutimages img {
     width:200px;
-    border-radius: 50%;
     transition: transform .2s;
 }
 
