@@ -6,9 +6,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JR Profile Page</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    <h1> Hello World!</h1>
-    <p> Im hosted on GitHub Pages! Welcome.</p>
+    <div class="navbar flexed align spaceb sticky transparent" id="navbar"> 
+        <div class="leftnav flexed align">
+            <img src="./images/jr.png">
+            <h1 class="redtxt">JAIME RODRIGUEZ</h1>
+        </div>
+        <div class="righttnav">
+            <ul class="nav-tabs flexed li jcright sp">
+                <li class="nav-item align">
+                    <img src="./images/user.png">
+                  <a class="nav-link" aria-current="page" style="text-decoration: none" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/mouse.png">
+                  <a class="nav-link" style="text-decoration: none" href="#tech">Techonologies</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/pencil.png">
+                  <a class="nav-link" style="text-decoration: none" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/mail.png">
+                  <a class="nav-link" style="text-decoration: none" href="#">Contact Me</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+    
+    <div class="home">
+        <img src="./images/michoacan.jpg">
+    </div>
+    <div class="page2" id="about">
+        <h1 class="aligntxt">About Me</h1>
+        <div class="about">
+            <div class="aboutimages">
+                <img src="./images/coding.png">
+                <img src="./images/mexicogame.jpeg">
+                <img src="./images/pony.jpeg">
+            </div>
+            <div class="abouttext">
+                <p>Hello! My name is Jaime Rodriguez and I am a Software Developer based in San Francisco, California.
+                   I have a background in construction and sales from previous years. Overtime, I realized this was not what I wanted for myself and I decided to
+                   make a career change and pursue a career in the software development industry. I began my own research
+                   and began to grow a strong interest in coding, the different languages used, and the endless possibilites
+                   that this industry has to offer. I decided to embark on this lifelong journey of learning and have not once
+                   looked back. I enjoy learning and always up for a good challenge. <br><br>
+                   Software development is one of my passions but I am also passionate about soccer (var soccer = futbol),
+                   music, and cars.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="page3" id="tech">
+        <div class="techimage aligntext">
+            <img src="./images/technologies2.png" class="techimage">
+        </div>
+        <div class="techtext">
+            <h1 class="aligntxt">My Technologies</h1>
+            <h6 class="aligntxt whitetxt">Languages used to create my projects.</h6>
+        </div>
+    </div>
+    <div class="page4" id="projects">
+        <h1 class="aligntxt">Projects</h1>
+        <div class="projectcontent flexed">
+            <div class="section">
+                <div class="p-layout"></div>
+                <p>Project name</p>
+                <br>
+                <div class="p-layout"></div>
+                <p>Project name</p>
+            </div>
+            <div class="section">
+                <div class="p-layout"></div>
+                <p>Project name</p>
+                <br>
+                <div class="p-layout"></div>
+                <p>Project name</p>
+            </div>
+        </div>
+        
+    </div>
+
+
 </body>

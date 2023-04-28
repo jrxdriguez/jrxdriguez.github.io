@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.li {
+    list-style: none;
+}
+.align {
+    align-items: center;
+}
+.aligntxt {
+    text-align: center;
+}
+.flexed {
+    display:flex;
+}
+.spaceb {
+    justify-content: space-between;
+}
+.jcbetween {
+    justify-content: space-between;
+}
+.jcright {
+    justify-content: right;
+}
+.sticky {
+    position:fixed;
+    width:100%;
+}
+.whitetxt {
+    color: whitesmoke;
+}
+.redtxt {
+    color:rgb(109, 7, 7);
+}
+
+.navbar {
+    background-color: rgb(177, 167, 167,.7);
+    width:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.leftnav {
+    padding-left: 25px;
+    gap:20px;
+}
+.leftnav img {
+    width:75px;
+    border-radius: 50%;
+}
+
+#navbar a:hover {
+    color:white;
+}
+.nav-tabs {
+   margin-right: 25px;
+   gap:25px;
+}
+.nav-tabs a {
+    font-size: 1.2em;
+}
+.nav-item img {
+    width: 15px;
+    margin-right: 5px;
+}
+.nav-link {
+    color: black;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    
+}
+.home img {
+    
+    width: 100%;
+    height:100vh;
+
+}
+
+.page2 {
+    width: 100%;
+    height:100vh;
+    background-color:rgb(74, 72, 72);
+    padding-top: 100px;
+    font-size: 1.3em;
+}
+.about {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutimages {
+    display:flex;
+    justify-content: space-around;
+    margin-top:20px;
+    margin-bottom: 30px;
+   
+}
+.aboutimages img:hover {
+    transform: scale(1.3);
+}
+.aboutimages img {
+    width:200px;
+    border-radius: 50%;
+    transition: transform .2s;
+}
+
+.abouttext {
+    background-color: rgb(177, 167, 167);
+    padding: 15px;
+    font-size: .8em;
+    border-radius: 20px;
+    border:3px black solid;
+}
+
+.page3 {
+    width: 100%;
+    height:100vh;
+    background-color:rgb(109, 7, 7);
+    padding-top: 100px;
+    font-size: 1.4em;
+}
+.page3 img {
+    width:40%;
+    border-bottom: 3px black solid;
+    border-top: 3px black solid;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.techimage {
+    display:flex;
+    justify-content: center;
+}
+
+.page4 {
+    width: 100%;
+    height:100vh;
+    background-color:rgb(74, 72, 72);
+    padding-top: 100px;
+    font-size: 1.4em;
+}
+.section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    width:100%;
+    transition: transform .2s;
+}
+
+.p-layout {
+    background-color: rgb(177, 167, 167);
+    height:180px;
+    border-radius: 10px;
+}
+.p-layout:hover {
+    transform: scale(1.35);
+}
